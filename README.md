@@ -1,5 +1,11 @@
 # Manna Bible content
 
-Card cover pictures for the Manna Bible app. The app downloads a picture when a person chooses it, and checks each file against a checksum built into the app.
+Pictures for the Manna Bible app, downloaded by the app when a person needs them:
 
-The pictures were drawn in code for the app. They are not for other use.
+- `covers/v1/`: card cover pictures, downloaded when a person chooses one.
+- `vault/v1/`: the vault tiles' pictures, downloaded the first time a tile shows.
+- `stories/v1/`: the Bible books' pictures, downloaded the first time a book shows.
+
+The app checks each file against a size and checksum built into it. A published version never changes: a redrawn picture goes out under a new version.
+
+These pictures are for the app. They are not for other use.
